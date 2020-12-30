@@ -1,0 +1,40 @@
+@keyframes slowFadeIn {
+    from { opacity: 0 };
+    to { opacity: 1.0 };
+}
+@keyframes fadeFromBack180 {
+    from { transform: translateZ(-1000px) rotate(0deg); opacity: 0;  };
+    to { transform: translateZ(0px) rotate(180deg); opacity: 1.0; };
+}
+@keyframes fadeFromBack360 {
+    from { transform: translateZ(-1000px) rotate(0deg); opacity: 0;  };
+    to { transform: translateZ(0px) rotate(360deg); opacity: 1.0; };
+}
+@keyframes zoomIn {
+    from { transform: translateZ(-10000px); opacity: 0; };
+    to { transform: translateZ(0px); opacity: 1.0; };
+}
+@keyframes logoLoop{
+    from { transform: rotate(0deg); };
+    to { transform: rotate(360deg); };
+}
+@keyframes fromUp {
+    from { transform: translate(0,-600px); opacity: 0; };
+    to { transform: translate(0,120px); opacity: 1.0; };
+}
+@keyframes getUp {
+    0% { transform:rotateX(80deg); };
+    45% { transform:rotateX(-50deg); };
+    55% { transform:rotateX(40deg); };
+    60% { transform:rotateX(-25deg); };
+    80% { transform:rotateX(15deg); }
+    100% { transform:rotateX(0deg); };   
+}
+@keyframes drop {
+    from { transform: translate(0,-1000px); opacity: 0; }
+    to { transform: translate(0, 0); opacity: 1.0; }
+}
+@keyframes blinkFlash {
+    from { background-color: red };
+    to { background-color: #b2f352 };
+}
